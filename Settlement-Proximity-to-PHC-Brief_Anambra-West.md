@@ -23,7 +23,7 @@ This narrows the earlier "hospitals to settlements" framing in two deliberate wa
 | Population (2022 est.) | ~238,400 |
 | Density | ~408.1/km² |
 
-*(2022 figure is a Wikipedia/citypopulation.de estimate, not a fresh census count — cross-check against National Population Commission data before using in a formal deliverable.)*
+*(2022 Wikipedia/citypopulation.de estimate.)*
 
 - Anambra West is the largest and most sparsely populated of the Anambra LGAs looked at in this series so far — settlements are genuinely more spread out, which raises the stakes of getting the "nearest PHC" answer right.
 - Anambra State's own health policy is organized around this exact tier: each of the state's 326 political wards has at least one PHC, while there are only about 20 secondary (general) hospitals statewide. That means for most Anambra West communities, the PHC *is* the health system in practical, daily terms — a gap here is a gap in basic care access, not just a gap in advanced care.
