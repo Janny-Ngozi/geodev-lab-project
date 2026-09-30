@@ -1,43 +1,72 @@
-# My GeoDev-Lab-Africa-project
-A spatial view and analysis into the Primary Health care accessibility in Anambra West, Anambra State.
-A deep dive into access inequalities, travel time and causes.
-Built over 12 months with GeoDev Lab Africa, Corhort One
-See project-brief.md for the full brief
+# Week 1: Project Definition and Study Area
 
-# Data Quality and Preparation Note
+## GeoDev Lab Africa, Cohort One
 
-## Study Area
+**Project:** Spatial Analysis of Primary Healthcare Accessibility in Anambra West LGA, Anambra State, Nigeria
 
-**Location:** Anambra West, Anambra State, Nigeria
+## Overview
 
-## CRS and Data Preparation
+Week 1 established the project focus, study area and research direction for a GIS-based assessment of healthcare accessibility in Anambra West Local Government Area (LGA), Anambra State.
 
-The original dataset was in **EPSG:4326 (WGS 84 geographic coordinate system)**. The data was reprojected to **EPSG:32632 (WGS 84 / UTM Zone 32N)** because the study area falls within UTM Zone 32N and the projected CRS uses **metres**, making it suitable for distance and area measurements.
+The project is centred on understanding how the spatial distribution of Primary Healthcare Centres (PHCs) relates to settlement locations, population distribution and the riverine and flood-prone geography of Anambra West.
 
-The following data preparation steps were carried out:
+## Research Question
 
-* Reprojected the original Shapefile from **EPSG:4326 to EPSG:32632**.
-* Clipped the data to the **Anambra West study area boundary**.
-* Saved the analysis-ready dataset as a **GeoPackage (`.gpkg`)**.
+> **Within Anambra West LGA, which settlements are close to, or effectively cut off from, a Primary Healthcare Centre (PHC), and how does that access pattern change with the LGA's riverine and flood-prone geography?**
 
-## Five Data Quality Checks
+The project deliberately focuses on PHCs because they represent the primary level of healthcare and are generally the most relevant facility type for routine healthcare access in rural communities.
 
-| Quality Check                    | Result                                                                                     | Action Taken        |
-| -------------------------------- | ------------------------------------------------------------------------------------------ | ------------------- |
-| **1. Duplicate features**        | No duplicate features were identified.                                                     | No action required. |
-| **2. Geometry validity**         | All geometries were valid with no self-intersections or invalid shapes identified.         | No action required. |
-| **3. Spatial coverage**          | The dataset provides coverage across the required study area after clipping.               | No action required. |
-| **4. Missing/empty attributes**  | No significant missing or empty attribute values were found.                               | No action required. |
-| **5. CRS and spatial reference** | The data was successfully reprojected to **EPSG:32632** and the CRS was correctly defined. | No action required. |
+## Objectives
 
-## Problems Identified
+1. Map the distribution of PHCs and settlements within Anambra West.
+2. Assess the proximity of settlements to PHCs.
+3. Identify areas where settlements may have limited access to PHCs.
+4. Examine the role of roads, waterways and the physical geography of the LGA.
+5. Develop a foundation for population-weighted and travel-time accessibility analysis.
+6. Consider how seasonal flooding could alter healthcare accessibility.
 
-No major data quality problems were identified during the checks. The dataset passed all five quality checks, so no corrections or fixes were required.
+## Planned Analytical Approach
 
-## Analysis-Ready File
+### Phase 1: Spatial proximity
+Determine the distance between settlements and nearby PHCs.
 
-The cleaned, clipped, and reprojected analysis-ready dataset is stored as:
+### Phase 2: Transport accessibility
+Incorporate the road network to investigate route-based rather than purely straight-line access.
 
-`data/anambra_west_reprojected.gpkg`
+### Phase 3: Population-weighted accessibility
+Use population information to identify areas where a large number of people may depend on limited healthcare facilities.
 
-The file contains the prepared spatial data in **EPSG:32632** and is ready for further spatial analysis.
+### Phase 4: Seasonal/flood accessibility
+Consider flood-prone areas and riverine geography when interpreting healthcare access.
+
+## Initial Data Requirements
+
+| Dataset | Purpose |
+|---|---|
+| PHC locations | Identify healthcare facilities |
+| Settlement extents/locations | Represent populated areas and potential demand |
+| Population data | Support population-weighted accessibility analysis |
+| Road network | Support travel-distance and route analysis |
+| Waterways | Understand riverine barriers and transport patterns |
+| LGA/ward boundaries | Define and aggregate the analysis area |
+| Flood information | Assess potential seasonal changes in accessibility |
+
+## Deliverables
+
+- Initial study-area map
+- Project brief
+- Research question and analytical direction
+- Identification of key spatial datasets
+
+## Project Map
+
+![Anambra West Study Area Map](Anambra%20West%20Map.png)
+
+## Next Step
+
+Week 2 focuses on collecting, documenting and organising the spatial datasets required for the proposed healthcare accessibility analysis.
+
+---
+
+**Author:** Ekwuocha Ngozi Jane  
+**Programme:** GeoDev Lab Africa, Cohort One
