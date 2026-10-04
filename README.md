@@ -128,6 +128,6 @@ GIS Analyst | Environmental Management | Spatial Data & Geospatial Analysis
 [View the project on GitHub](https://github.com/Janny-Ngozi/geodev-lab-project)
 
 
-## Month two project environment preparation, Windows Powershell terminal use, Python installation and a brief python code writing
+## Month 2: development environment and early Python
 
--Week 5: i carried out VS Code installation and terminal setup, python code installation and setup and hello.py runs
+-Week 5: set up Python, VS Code and the terminal. hello.py runs
