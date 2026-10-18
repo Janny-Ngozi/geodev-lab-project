@@ -45,6 +45,11 @@ geodev-lab-project/
 ├── Week 4/
 │   └── watsup.docx
 │
+├── Week 6/
+│   ├── README.md
+│   └── Screenshots/
+│       └── README.md
+│
 └── README.md
 ```
 
@@ -54,7 +59,7 @@ geodev-lab-project/
 
 The first stage established the project focus on **Primary Healthcare accessibility in Anambra West**. A study-area map and an initial project brief were prepared, with emphasis on understanding access inequalities, travel distance and factors affecting healthcare accessibility.
 
-The initial spatial data was prepared for analysis by converting the original data from **EPSG:4326 (WGS 84)** to **EPSG:32632 (WGS 84 / UTM Zone 32N)**, clipping it to the study area and saving the analysis-ready data as a GeoPackage. fileciteturn6file0
+The initial spatial data was prepared for analysis by converting the original data from **EPSG:4326 (WGS 84)** to **EPSG:32632 (WGS 84 / UTM Zone 32N)**, clipping it to the study area and saving the analysis-ready data as a GeoPackage.
 
 ### Week 2: Healthcare and Settlement Datasets
 
@@ -67,7 +72,7 @@ Week 2 focused on identifying and documenting the datasets required for the prox
 | Primary Healthcare Centres | GRID3 | 19 | Point |
 | Roads | QuickOSM | 12 | Line |
 
-The purpose was to assess how close settlements are to healthcare facilities and examine spatial patterns in healthcare distribution across the LGA. fileciteturn7file0
+The purpose was to assess how close settlements are to healthcare facilities and examine spatial patterns in healthcare distribution across the LGA.
 
 ### Week 3: Data Quality and Preparation
 
@@ -82,7 +87,7 @@ The data preparation stage included:
 - Checking missing or empty attributes
 - Verifying the CRS and spatial reference
 
-The documented checks found no major data quality problems in the reviewed dataset. fileciteturn8file0
+The documented checks found no major data quality problems in the reviewed dataset.
 
 ### Week 4: Continuing the GeoDev Lab Journey
 
@@ -90,7 +95,7 @@ The Week 4 folder is currently included as part of the project progression and w
 
 ## Data Sources
 
-The project uses spatial datasets from sources including **GRID3** and **OpenStreetMap/QuickOSM**. The Week 2 documentation contains the source references used for the Anambra West boundary and population datasets. fileciteturn7file0
+The project uses spatial datasets from sources including **GRID3** and **OpenStreetMap/QuickOSM**.
 
 ## Tools and Technologies
 
@@ -98,6 +103,7 @@ The project uses spatial datasets from sources including **GRID3** and **OpenStr
 - **OpenStreetMap / QuickOSM** for relevant geospatial datasets
 - **GRID3** for population, settlement and health facility datasets
 - **GeoPackage (`.gpkg`)** for analysis-ready spatial data
+- **Python** for programming and data analysis
 - **GitHub** for version control, documentation and project sharing
 
 ## Key Skills Demonstrated
@@ -111,6 +117,7 @@ This project demonstrates practical experience in:
 - Geometry and attribute quality checks
 - Spatial proximity analysis
 - Healthcare accessibility mapping
+- Python programming and basic data analysis
 - Technical documentation
 - Version control with GitHub
 
@@ -127,7 +134,12 @@ GIS Analyst | Environmental Management | Spatial Data & Geospatial Analysis
 
 [View the project on GitHub](https://github.com/Janny-Ngozi/geodev-lab-project)
 
+## Month 2: Python Development
 
-## Month 2: development environment and early Python
+### Week 5
 
--Week 5: set up Python, VS Code and the terminal. hello.py runs
+Set up Python, VS Code and the terminal, and created an initial Python script to confirm the development environment was working.
+
+### Week 7
+
+`analyse.py` reads `wards.csv`, converts each area and classifies each ward.
