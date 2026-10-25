@@ -1,0 +1,20 @@
+fid,state,lga,ward,uid,facility_code,facility_name,start_date,ownership,facility_level,longitude,latitude,operation_status,registration_status,license_status,created,last_updated
+1,Anambra,Anambra West,Abegbu/Iyiorah,63324437,"04/03/1/1/1/0001",Abaegbu Primary Health Centre,1/1/2000,Public,Primary,6.7962,6.41422,Operational,Registered,Unknown,1/1/2018,1/27/2020
+2,Anambra,Anambra West,Olu ward 2,53195455,"04/03/1/1/1/0004",Igbedor Primary Health Centre,1/1/2000,Public,Primary,6.68864,6.49891,Operational,Unknown,Unknown,1/1/2018,11/16/2019
+3,Anambra,Anambra West,Olu ward 2,54236559,"04/03/1/1/1/0005",Igbokenyi Primary Health Centre,1/1/2000,Public,Primary,6.69357,6.46226,Operational,Unknown,Unknown,1/1/2018,11/16/2019
+4,Anambra,Anambra West,Olu ward 1,15626477,"04/03/1/1/1/0006",Inoma Primary Health Centre,3/8/1983,Public,Primary,6.70698,6.52789,Operational,Registered,Unknown,1/1/2018,2/3/2020
+5,Anambra,Anambra West,Abegbu/Iyiorah,28095831,"04/03/1/1/1/0007",Iyiola Primary Health Centre,1/1/2000,Public,Primary,6.82234,6.40067,Operational,Registered,Unknown,1/1/2018,2/3/2020
+6,Anambra,Anambra West,Nzam ward,67901603,"04/03/1/1/1/0008",NZAM Model Primary Health Centre,1/1/2000,Public,Primary,6.71761,6.45641,Operational,Registered,Unknown,1/1/2018,2/18/2020
+7,Anambra,Anambra West,Umuem,36294259,"04/03/1/1/1/0010",Obodootu Primary Health Centre,1/1/1992,Public,Primary,6.73515,6.35518,Operational,Unknown,Unknown,1/1/2018,11/16/2019
+8,Anambra,Anambra West,Olu ward 2,30527475,"04/03/1/1/1/0011",Odeh Primary Health Centre,1/1/2000,Public,Primary,6.69624,6.44842,Operational,Registered,Unknown,1/1/2018,2/3/2020
+9,Anambra,Anambra West,Olu ward 2,52647633,"04/03/1/1/1/0012",Odekpe Primary Health Centre,1/1/2000,Public,Primary,6.68086,6.51806,Operational,Registered,Unknown,1/1/2018,2/3/2020
+10,Anambra,Anambra West,Ezi Anam,73310773,"04/03/1/1/1/0014",Onono Primary Health Centre,1/1/2000,Public,Primary,6.7632,6.2011,Operational,Registered,Unknown,1/1/2018,2/3/2020
+11,Anambra,Anambra West,Oroma Etiti,83259955,"04/03/1/1/1/0016",Oroma Etiti Primary Health Center,1/1/2000,Public,Primary,6.74679,6.33699,Operational,Unknown,Unknown,1/1/2018,11/16/2019
+12,Anambra,Anambra West,Oroma Etiti,29562446,"04/03/1/1/1/0017",Oroma-Etiti Referral Health Centre,1/1/2000,Public,Primary,6.74881,6.33598,Operational,Unknown,Unknown,1/1/2018,11/16/2019
+13,Anambra,Anambra West,Mmiata ward,40089428,"04/03/1/1/1/0020",Umudeze Primary Health Centre,1/1/2000,Public,Primary,6.78876,6.41648,Operational,Registered,Unknown,1/1/2018,2/4/2020
+14,Anambra,Anambra West,Ezi Anam,28345123,"04/12/1/1/1/0064",Umudora Primary Health Centre,1/1/2000,Public,Primary,6.75595,6.30994,Operational,Registered,Unknown,1/1/2018,2/4/2020
+15,Anambra,Anambra West,Umuem,16259098,"04/03/1/1/1/0018",Umuem Primary Health Centre,1/1/2000,Public,Primary,6.74654,6.36398,Operational,Unknown,Unknown,1/1/2018,11/16/2019
+16,Anambra,Anambra West,Umueze Anam ward 2,20481674,"04/03/1/1/1/0065",Umuezeanam 2 Primary Health Centre,2/7/2019,Public,Primary,6.83269,6.33064,Operational,Registered,Not Applicable,11/14/2019,2/4/2020
+17,Anambra,Anambra West,Ezi Anam,28088047,"04/03/1/1/1/0022",Umuikwu Primary Health Centre,1/1/2000,Public,Primary,6.75848,6.21832,Operational,Unknown,Unknown,1/1/2018,11/16/2019
+18,Anambra,Anambra West,Abegbu/Iyiorah,15933812,"04/03/1/1/1/0023",Umuoba-Anam Comprehensive Health Centre,1/1/2000,Public,Secondary,6.79964,6.40763,Operational,Registered,Unknown,1/1/2018,2/4/2020
+19,Anambra,Anambra West,Mmiata ward,50277065,"04/03/1/1/1/0019",Umuonuora Primary Health Centre,1/1/2000,Public,Primary,6.79011,6.41897,Operational,Unknown,Unknown,1/1/2018,2/4/2020
