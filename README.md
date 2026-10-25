@@ -29,27 +29,20 @@ The analysis focuses on the spatial distribution of settlements and Primary Heal
 
 ```text
 geodev-lab-project/
-│
 ├── Week 1/
-│   ├── Anambra West Map.png
-│   ├── README.md
-│   └── Settlement-Proximity-to-PHC-Brief_Anambra-West.md
-│
 ├── Week 2/
-│   ├── Week 2 Data Note.md
-│   └── data_set/
-│
 ├── Week 3/
-│   └── Data Quality and Preparation Note.md
-│
 ├── Week 4/
-│   └── watsup.docx
-│
 ├── Week 6/
+│   └── Screenshots/
+├── Week 7/
+│   └── Screenshots/
+├── Week 8/
+│   ├── AW_PHC.csv
+│   ├── inspect_data.py
 │   ├── README.md
 │   └── Screenshots/
 │       └── README.md
-│
 └── README.md
 ```
 
@@ -63,7 +56,7 @@ The initial spatial data was prepared for analysis by converting the original da
 
 ### Week 2: Healthcare and Settlement Datasets
 
-Week 2 focused on identifying and documenting the datasets required for the proximity analysis. The repository documents datasets for:
+Week 2 focused on identifying and documenting the datasets required for the proximity analysis.
 
 | Dataset | Source | Features | Geometry |
 |---|---|---:|---|
@@ -91,7 +84,7 @@ The documented checks found no major data quality problems in the reviewed datas
 
 ### Week 4: Continuing the GeoDev Lab Journey
 
-The Week 4 folder is currently included as part of the project progression and will be updated as additional project work is documented.
+The Week 4 folder is included as part of the project progression and can be updated as additional work is documented.
 
 ## Data Sources
 
@@ -107,8 +100,6 @@ The project uses spatial datasets from sources including **GRID3** and **OpenStr
 - **GitHub** for version control, documentation and project sharing
 
 ## Key Skills Demonstrated
-
-This project demonstrates practical experience in:
 
 - GIS data acquisition and management
 - Spatial data cleaning and preparation
@@ -143,3 +134,7 @@ Set up Python, VS Code and the terminal, and created an initial Python script to
 ### Week 7
 
 `analyse.py` reads `wards.csv`, converts each area and classifies each ward.
+
+### Week 8
+
+`inspect_data.py` summarises longitude and latitude in the Anambra West healthcare facilities dataset (`AW_PHC.csv`).
