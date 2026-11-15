@@ -138,3 +138,6 @@ Set up Python, VS Code and the terminal, and created an initial Python script to
 ### Week 8
 
 `inspect_data.py` summarises longitude and latitude in the Anambra West healthcare facilities dataset (`AW_PHC.csv`).
+
+## Month3: geospatial Python and automation
+week 10: Geopandas. Loaded, checked, joined and mapped my Anambra West LGA in code.
