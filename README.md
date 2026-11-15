@@ -116,11 +116,6 @@ The project uses spatial datasets from sources including **GRID3** and **OpenStr
 
 The broader goal is to demonstrate how geospatial data can be transformed into useful spatial evidence for understanding **healthcare accessibility and distribution**. The project also serves as a practical record of developing GIS and spatial data analysis skills through the GeoDev Lab Africa programme.
 
-## Author
-
-**Ekwuocha Ngozi Jane**  
-GIS Analyst | Environmental Management | Spatial Data & Geospatial Analysis
-
 ## Repository
 
 [View the project on GitHub](https://github.com/Janny-Ngozi/geodev-lab-project)
