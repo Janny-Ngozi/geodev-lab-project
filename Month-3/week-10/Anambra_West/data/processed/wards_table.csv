@@ -1,0 +1,11 @@
+country,iso3,state,statecode,lga,lga_alt_na,ward,ward_alt_n,ward_v1_gr,ward_in_gr,multipart_,source,date,area_sqkm
+Nigeria,NGA,Anambra,AN,Anambra West,,Abegbu/Iyiora,Abegbu/Iyiorah,,1.0,1.0,CIESIN,2026-10-16,105.653624919
+Nigeria,NGA,Anambra,AN,Anambra West,,Ezi Anam,"Ezi-Anam, Ezianam",,1.0,1.0,CIESIN,2026-10-16,72.4965322295
+Nigeria,NGA,Anambra,AN,Anambra West,,Mmiata,,,1.0,1.0,CIESIN,2026-10-16,120.960637065
+Nigeria,NGA,Anambra,AN,Anambra West,,Nzam,,,1.0,1.0,CIESIN,2026-10-16,56.0468095997
+Nigeria,NGA,Anambra,AN,Anambra West,,Olumbanasa I,,,1.0,1.0,CIESIN,2026-10-16,31.3099872462
+Nigeria,NGA,Anambra,AN,Anambra West,,Olumbanasa II,,,1.0,1.0,CIESIN,2026-10-16,33.4578276859
+Nigeria,NGA,Anambra,AN,Anambra West,,Oroma,"Oroma Etiti-Anam, Oroma Etiti",,1.0,1.0,CIESIN,2026-10-16,44.4719176724
+Nigeria,NGA,Anambra,AN,Anambra West,,Umuem,,,1.0,1.0,CIESIN,2026-10-16,53.9663094633
+Nigeria,NGA,Anambra,AN,Anambra West,,Umueze Anam I,Umueze-Anam 1,,1.0,1.0,CIESIN,2026-10-16,30.9246215268
+Nigeria,NGA,Anambra,AN,Anambra West,,Umueze Anam II,Umueze-Anam 2,,1.0,1.0,CIESIN,2026-10-16,25.7446917071

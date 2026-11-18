@@ -1,0 +1,15 @@
+import geopandas as gpd
+from pathlib import Path
+
+script_dir = Path(__file__).parent
+source_dir = Path(
+    r"C:\Users\jane\Documents\geodev-lab-project\Month_1\Week 2\data_set\AW_Processed"
+)
+output_dir = script_dir / "data" / "processed"
+output_dir.mkdir(parents=True, exist_ok=True)
+output_gpkg = output_dir / "week10_outputs.gpkg"
+
+wards = gpd.read_file(source_dir / "AW_Wards.gpkg", layer="AW_Wards")
+wards.to_file(output_gpkg, layer="wards_copy")
+wards.drop(columns="geometry").to_csv(output_dir / "wards_table.csv", index=False)
+print(gpd.list_layers(output_gpkg))
